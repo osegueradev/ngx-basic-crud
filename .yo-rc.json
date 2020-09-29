@@ -1,0 +1,35 @@
+{
+  "generator-ngx-rocket": {
+    "version": "9.0.0",
+    "props": {
+      "location": "path",
+      "strict": true,
+      "skipInstall": false,
+      "skipQuickstart": false,
+      "initGit": false,
+      "usePrefix": true,
+      "appName": "ngx-basic-crud",
+      "target": [
+        "web"
+      ],
+      "pwa": false,
+      "ui": "bootstrap",
+      "auth": false,
+      "lazy": true,
+      "angulartics": false,
+      "languages": [
+        "en-US",
+        "es-ES"
+      ],
+      "tools": [
+        "prettier"
+      ],
+      "utility": [],
+      "deploy": "none",
+      "projectName": "ngx-basic-crud",
+      "packageManager": "npm",
+      "mobile": [],
+      "desktop": []
+    }
+  }
+}
