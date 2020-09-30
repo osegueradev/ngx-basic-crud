@@ -11,5 +11,12 @@
   "Email": "Email",
   "Acctions": "Acctions",
   "Edit": "Edit",
-  "Delete": "Delete"
+  "Delete": "Delete",
+  "Name": "Name",
+  "Cancel": "Cancel",
+  "Edit contact": "Edit Contact",
+  "Required field": "Required field",
+  "Invalid email": "Invalid email",
+  "Required length": "At least",
+  "Chars": "chars"
 }

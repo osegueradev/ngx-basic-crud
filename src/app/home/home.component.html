@@ -1,15 +1,9 @@
 <div class="container-fluid">
-  <div class="jumbotron text-center">
-    <h1>
-      <img class="logo" src="assets/ngx-rocket-logo.png" alt="angular logo" />
-      <span translate>Hello world !</span>
-    </h1>
-    <app-loader [isLoading]="isLoading"></app-loader>
-  </div>
   <button [routerLink]="'new'" type="button" class="btn btn-primary mb-3">
     <span translate>New</span>
   </button>
-  <div class="row">
+  <app-loader [isLoading]="isLoading"></app-loader>
+  <div *ngIf="!isLoading" class="row">
     <div class="col-sm-12 col-md-7 col-lg-8">
       <div class="table-responsive">
         <table class="table table-striped">

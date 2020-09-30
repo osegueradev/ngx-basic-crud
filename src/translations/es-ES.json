@@ -11,5 +11,12 @@
   "Email": "Correo",
   "Acctions": "Acciones",
   "Edit": "Editar",
-  "Delete": "Borrar"
+  "Delete": "Borrar",
+  "Name": "Nombre",
+  "Cancel": "Cancelar",
+  "Edit contact": "Editar Contacto",
+  "Required field": "Campo requerido",
+  "Invalid email": "Email inválido",
+  "Required length": "Al menos",
+  "Chars": "caracteres"
 }
