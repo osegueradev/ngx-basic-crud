@@ -1,9 +1,8 @@
 # Basic Crud App
 
-[![Website oseguera.dev](https://img.shields.io/website-up-down-green-red/http/oseguera.dev.svg)](https://oseguera.dev)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-You can see this site at: [oseguera.dev](https://oseguera.dev)
+You can see this site at: [osegueradev.github.io/ngx-basic-crud](https://osegueradev.github.io/ngx-basic-crud)
 
 ## Table of Content
 
@@ -18,7 +17,6 @@ You can see this site at: [oseguera.dev](https://oseguera.dev)
     - [Libraries](#libraries)
     - [Coding guides](#coding-guides)
     - [Other documentation](#other-documentation)
-- [Changelog](#changelog)
 
 ## Getting started
 
@@ -121,6 +119,3 @@ Documentation / Articles / Repositories with content that explains various appro
 - [Using a backend proxy for development](documentation/backend-proxy.md)
 - [Browser routing](documentation/routing.md)
 
-## Changelog
-
-You can review this project [Changelog](https://github.com/osegueradev/oseguera-dev-website/blob/master/CHANGELOG.md).
