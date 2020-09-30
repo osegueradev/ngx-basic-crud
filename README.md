@@ -126,17 +126,17 @@ Development, build and quality processes are based on [angular-cli](https://gith
 
 #### Coding guides
 
-- [Angular](docs/coding-guides/angular.md)
-- [TypeScript](docs/coding-guides/typescript.md)
-- [Sass](docs/coding-guides/sass.md)
-- [HTML](docs/coding-guides/html.md)
-- [Unit tests](docs/coding-guides/unit-tests.md)
-- [End-to-end tests](docs/coding-guides/e2e-tests.md)
+- [Angular](documentation/coding-guides/angular.md)
+- [TypeScript](documentation/coding-guides/typescript.md)
+- [Sass](documentation/coding-guides/sass.md)
+- [HTML](documentation/coding-guides/html.md)
+- [Unit tests](documentation/coding-guides/unit-tests.md)
+- [End-to-end tests](documentation/coding-guides/e2e-tests.md)
 
 #### Other documentation
 
-- [I18n guide](docs/i18n.md)
-- [Working behind a corporate proxy](docs/corporate-proxy.md)
-- [Updating dependencies and tools](docs/updating.md)
-- [Using a backend proxy for development](docs/backend-proxy.md)
-- [Browser routing](docs/routing.md)
+- [I18n guide](documentation/i18n.md)
+- [Working behind a corporate proxy](documentation/corporate-proxy.md)
+- [Updating dependencies and tools](documentation/updating.md)
+- [Using a backend proxy for development](documentation/backend-proxy.md)
+- [Browser routing](documentation/routing.md)
