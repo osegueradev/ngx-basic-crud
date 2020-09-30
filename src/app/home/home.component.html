@@ -5,6 +5,44 @@
       <span translate>Hello world !</span>
     </h1>
     <app-loader [isLoading]="isLoading"></app-loader>
-    <q [hidden]="isLoading">{{ quote }}</q>
+  </div>
+  <button [routerLink]="'new'" type="button" class="btn btn-primary mb-3">
+    <span translate>New</span>
+  </button>
+  <div class="row">
+    <div class="col-sm-12 col-md-7 col-lg-8">
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col" translate>Id</th>
+              <th scope="col" translate>Contact</th>
+              <th scope="col" translate>Email</th>
+              <th scope="col" translate>Acctions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let contact of contacts; let i=index">
+              <th scope="row">{{ contact.id }}</th>
+              <td>{{ contact.name }}</td>
+              <td>{{ contact.email }}</td>
+              <td>
+                <button [routerLink]="[contact.id]" type="button" class="btn btn-outline-success mr-1">
+                  <span translate>Edit</span>
+                </button>
+                <button type="button" class="btn btn-outline-danger" (click)="delete(contact.id)">
+                  <span translate>Delete</span>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-5 col-lg-4">
+      <code>
+          <pre>{{contacts |json}}</pre>
+      </code>
+    </div>
   </div>
 </div>

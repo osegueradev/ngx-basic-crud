@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { finalize } from 'rxjs/operators';
-
-import { QuoteService } from './quote.service';
+import { Contact } from '@app/interfaces/contact';
+import { ContactsService } from '../services/contacts.service';
 
 @Component({
   selector: 'app-home',
@@ -9,22 +8,19 @@ import { QuoteService } from './quote.service';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  quote: string | undefined;
+
   isLoading = false;
 
-  constructor(private quoteService: QuoteService) {}
+  contacts: Contact[] = [];
+
+  constructor(private contactsService: ContactsService) {}
 
   ngOnInit() {
-    this.isLoading = true;
-    this.quoteService
-      .getRandomQuote({ category: 'dev' })
-      .pipe(
-        finalize(() => {
-          this.isLoading = false;
-        })
-      )
-      .subscribe((quote: string) => {
-        this.quote = quote;
-      });
+    this.contacts = this.contactsService.getContacts();
   }
+
+  delete(id: number) {
+    this.contacts = this.contactsService.deleteContact(id);
+  }
+
 }
